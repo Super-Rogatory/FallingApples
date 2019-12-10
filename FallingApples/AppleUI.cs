@@ -11,7 +11,7 @@ using System;
 using System.Windows;
 using System.Drawing;
 using System.Windows.Forms;
-
+using System.Windows.Input;
 namespace FallingApples
 {
     public class AppleUI : Form
@@ -92,7 +92,7 @@ namespace FallingApples
             pause.Click += PauseMotion;
             resume.Click += ResumeMotion;
             exit.Click += EndApplication;
-            MouseClick += mousePressed; //calls mousePressed whenever the mouse is click
+            MouseClick += MouseClickA; //calls mousePressed whenever the mouse is click
         }
 
         protected static void BitMapBackGround()
@@ -119,16 +119,13 @@ namespace FallingApples
                 gfx.FillEllipse(brush, Convert.ToInt32(x_position), Convert.ToInt32(y_position), radius, radius);
             }
         }
-       
-        protected void mousePressed(object sender, EventArgs events)
+        private void MouseClickA(object sender, MouseEventArgs e) // easy more, more give on the pixels. TODO: Develop a hard mode, faster balls, less give
         {
             // this formula works
-            double x = Math.Sqrt(Math.Pow((Convert.ToInt32(x_position) - (MousePosition.X - X_OFFSET)), 2));
-            double y = Math.Sqrt(Math.Pow((Convert.ToInt32(y_position) - (MousePosition.Y - Y_OFFSET)), 2));
+            double x = Math.Sqrt(Math.Pow(Convert.ToInt32(x_position) - e.Location.X, 2));
+            double y = Math.Sqrt(Math.Pow(Convert.ToInt32(y_position) - e.Location.Y, 2));
             double distance = x + y;
-            Console.WriteLine(MousePosition.X - 1);
-            Console.WriteLine(MousePosition.Y - 65);
-            if(Convert.ToInt32(distance) <= radius)
+            if (Convert.ToInt32(distance) <= (radius + 8)) //give or take some pixels
             {
                 Console.WriteLine("Perfect Click!");
             }
