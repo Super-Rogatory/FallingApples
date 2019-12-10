@@ -18,8 +18,10 @@ namespace FallingApples
     {
         public static void Main(string[] args)
         {
+
             Console.WriteLine("Welcome to the Falling Apples!");
             Application.Run(new AppleUI());
+
         }
     }
 }

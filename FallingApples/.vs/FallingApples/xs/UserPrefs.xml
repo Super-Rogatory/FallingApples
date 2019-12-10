@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.FallingApples PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AppleUI.cs">
     <Files>
-      <File FileName="ApplesMain.cs" Line="9" Column="1" />
-      <File FileName="AppleUI.cs" Line="73" Column="10" />
+      <File FileName="ApplesMain.cs" Line="20" Column="10" />
+      <File FileName="AppleUI.cs" Line="93" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
