@@ -1,0 +1,5 @@
+/home/superrogatory/Projects/FallingApples/FallingApples/bin/Debug/FallingApples.exe
+/home/superrogatory/Projects/FallingApples/FallingApples/bin/Debug/FallingApples.pdb
+/home/superrogatory/Projects/FallingApples/FallingApples/obj/x86/Debug/FallingApples.csprojAssemblyReference.cache
+/home/superrogatory/Projects/FallingApples/FallingApples/obj/x86/Debug/FallingApples.exe
+/home/superrogatory/Projects/FallingApples/FallingApples/obj/x86/Debug/FallingApples.pdb

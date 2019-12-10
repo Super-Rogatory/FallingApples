@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{A5DE21B9-A527-4B27-9FDD-59310E7C45A7}|Default">
+  <MonoDevelop.Ide.ItemProperties.FallingApples PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppleUI.cs">
+    <Files>
+      <File FileName="ApplesMain.cs" Line="9" Column="1" />
+      <File FileName="AppleUI.cs" Line="73" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
